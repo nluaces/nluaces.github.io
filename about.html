@@ -11,6 +11,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.zdog-canvas {
+			  background: #41806B;
+			  cursor: move;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -40,8 +46,7 @@
 
 						<section class="post">
 							<h3>whoami</h3>
-								<p><span class="image left"><img src="images/about/me.jpg" alt="Noe Luaces" /></span>
-									Hello,<br/>
+							<p><span class="image left"><img src="images/about/hello.jpg" alt="Hi" /></span>
 									I'm Noe Luaces, and among other things, I'm a software engineer by profession. <br/>
 								The purpose of this personal website is sharing my experience and my personal/parallel projects that I've been working on through my career. <br/>
 								In 2007, I finished my 3 year Bachelor Degree in Computer Science, but I always wanted to learn more of subjects that weren't included
@@ -145,7 +150,7 @@
 					<footer id="footer">
 						<section>
 							<span class="image fit">
-								<img src="images/about/hello.jpg" alt="" />
+								<canvas class="zdog-canvas" width="500" height="500"></canvas>
 							</span>
 						</section>
 						<section class="split contact">
@@ -206,6 +211,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="https://unpkg.com/zdog@1/dist/zdog.dist.min.js"></script>
+			<script src="assets/js/avatar/avatar.js"></script>
 	</body>
 </html>
