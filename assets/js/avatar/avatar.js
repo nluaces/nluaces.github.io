@@ -6,7 +6,7 @@ const skin = "#F5D6C0"
 let illo = new Zdog.Illustration({
   // set canvas with selector
   element: '.zdog-canvas',
-  zoom: 13,
+  zoom: 6,
   dragRotate: true,
 });
 
