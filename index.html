@@ -1,176 +1,945 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Noe Luaces</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en-US" xmlns="http://www.w3.org/1999/html">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Noe Luaces</title>
+	<meta name="description" content="Noe Luaces">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="images/drawings/me-red.png">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+	<!-- STYLESHEETS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/all.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/slick.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/animate.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h2>Noe Luaces</h2>
-						<p>Personal site</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body class="dark">
+
+<!-- Preloader -->
+<div id="preloader">
+	<div class="outer">
+		<!-- Google Chrome -->
+		<div class="infinityChrome">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+
+		<!-- Safari and others -->
+		<div class="infinity">
+			<div>
+				<span></span>
+			</div>
+			<div>
+				<span></span>
+			</div>
+			<div>
+				<span></span>
+			</div>
+		</div>
+		<!-- Stuff -->
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo-outer">
+			<defs>
+				<filter id="goo">
+					<feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
+					<feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+					<feBlend in="SourceGraphic" in2="goo" />
+				</filter>
+			</defs>
+		</svg>
+	</div>
+</div>
+
+<!-- mobile header -->
+<header class="mobile-header-1">
+	<div class="container">
+		<!-- menu icon -->
+		<div class="menu-icon d-inline-flex mr-4">
+			<button>
+				<span></span>
+			</button>
+		</div>
+		<!-- logo image -->
+		<div class="site-logo">
+			<a href="index-dark.html">
+				<img src="images/logo.svg" alt="Noe Luaces" />
+			</a>
+		</div>
+	</div>
+</header>
+
+<!-- desktop header -->
+<header class="desktop-header-1 d-flex align-items-start flex-column">
+	
+	<!-- logo image -->
+	<div class="site-logo">
+		<a href="index-dark.html">
+			<img src="images/logo-b-light.svg" alt="Noe Luaces" />
+		</a>
+	</div>
+	
+	<!-- main menu -->
+	<nav>
+		<ul class="vertical-menu scrollspy">
+			<li class="active"><a href="#home"><i class="icon-home"></i>Home</a></li>
+			<li><a href="#about"><i class="icon-user-female"></i>About</a></li>
+			<li><a href="#skills"><i class="icon-briefcase"></i>Skills</a></li>
+			<li><a href="#experience"><i class="icon-graduation"></i>Experience</a></li>
+			<li><a href="#projects"><i class="icon-rocket"></i>Projects</a></li>
+			<li><a href="#blog"><i class="icon-note"></i>Blog</a></li>
+			<li><a href="#talks"><i class="icon-microphone"></i>Talks</a></li>
+			<li><a href="#contact"><i class="icon-info"></i>Contact</a></li>
+		</ul>
+	</nav>
+
+</header>
+
+<!-- main layout -->
+<main class="content">
+	
+	<!-- section home -->
+	<section id="home" class="home d-flex align-items-center">
+		<div class="container">
+
+			<!-- intro -->
+			<div class="intro">
+				<!-- avatar image -->
+				<img src="images/drawings/me-yellow.svg" alt="Noe" class="mb-4" />
+
+				<!-- info -->
+				<h1 class="mb-2 mt-0">Noe Luaces</h1>
+				<span>I'm a <span class="text-rotating">Software Engineer 📝⌨️, Back-End developer 🔧, Comic-book lover 💛, Software Engineer 📝⌨️, Back-End developer 🔧, Sketching apprentice  ✏️</span></span>
+
+				<!-- social icons -->
+				<ul class="social-icons light list-inline mb-0 mt-4">
+					<li class="list-inline-item"><a href="https://www.linkedin.com/in/nluaces/"><i class="fab fa-linkedin"></i></a></li>
+					<li class="list-inline-item"><a href="https://twitter.com/luanoe_codes"><i class="fab fa-twitter"></i></a></li>
+					<li class="list-inline-item"><a href="https://github.com/nluaces"><i class="fab fa-github"></i></a></li>
+					<li class="list-inline-item"><a href="https://gitlab.com/nluaces"><i class="fab fa-gitlab"></i></a></li>
+					<li class="list-inline-item"><a href="https://buildingsoftware.nishilua.com/"><i class="fab fa-wordpress"></i></a></li>
+					<li class="list-inline-item">
+						<a href="https://dev.to/nluaces">
+							<i class="fab fa-dev" title="nluaces's DEV Community Profile"></i>
+						</a>
+					</li>
+				</ul>
+
+				<!-- buttons -->
+				<div class="mt-4">
+					<a href="#contact" class="btn btn-default">Contact</a>
+				</div>
+			</div>
+			
+			<!-- scroll down mouse wheel -->
+			<div class="scroll-down">
+				<a href="#about" class="mouse-wrapper">
+					<span>Scroll Down</span>
+					<span class="mouse">
+						<span class="wheel"></span>
+					</span>
+				</a>
+			</div>
+
+			<!-- parallax layers -->
+			<div class="parallax" data-relative-input="true">
+
+				<svg width="27" height="29" data-depth="0.3" class="layer p1" xmlns="http://www.w3.org/2000/svg"><path
+						style="fill:#ffd15c;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+						d="M 13.433594 0.359375 C 12.698252 0.30110579 11.881153 0.50802458 10.992188 1.1523438 L 8.3652344 9.796875 L 1.1777344 11.830078 C 0.38890934 12.969379 -0.03254429 14.478126 1.3085938 16.216797 L 8.6640625 18.212891 L 11.556641 27.736328 C 13.334573 29.024966 14.830068 28.558812 15.945312 27.736328 L 18.386719 18.005859 L 25.9375 15.955078 C 27.278638 14.216407 26.857184 12.709613 26.068359 11.570312 L 17.375 9.1113281 L 15.378906 1.1523438 C 14.821284 0.74110144 14.168936 0.41764421 13.433594 0.359375 z "
+						id="path1985" /></svg>
+
+				<svg width="26" height="26" data-depth="0.2" class="layer p2" xmlns="http://www.w3.org/2000/svg"><path
+						style="fill:#ff4c60;fill-opacity:1;stroke:none;stroke-width:0.66570437px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+						d="m 11.992524,5.4710606 c -0.48952,-0.03879 -1.033467,0.098957 -1.625254,0.5278828 L 8.6184954,11.753645 3.8337456,13.107158 c -0.5251243,0.758437 -0.8056874,1.762816 0.087114,2.920258 l 4.8965669,1.328808 1.9256025,6.339793 c 1.183577,0.857852 2.179134,0.547532 2.921557,0 l 1.625255,-6.477615 5.026588,-1.365214 c 0.892802,-1.157441 0.612238,-2.16052 0.08711,-2.918958 L 14.616336,11.297274 13.287527,5.9989434 C 12.916316,5.7251776 12.482045,5.5098508 11.992524,5.4710606 Z"
+						id="path1985" /></svg>
+
+				<svg width="30" height="25" data-depth="0.3" class="layer p3" xmlns="http://www.w3.org/2000/svg"><path
+						style="fill:#44d7b6;fill-opacity:1;stroke:none;stroke-width:0.52274156px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+						d="M 11.088424,9.5333724 C 10.70403,9.502913 10.276898,9.6110777 9.8121989,9.9478902 L 8.4389811,14.466745 4.6817762,15.529584 c -0.4123515,0.59556 -0.6326623,1.384246 0.068404,2.293122 l 3.8450089,1.04344 1.5120709,4.978296 c 0.9294,0.673626 1.711157,0.429947 2.294141,0 l 1.276225,-5.08652 3.947107,-1.072028 c 0.701069,-0.908875 0.480757,-1.69654 0.0684,-2.2921 L 13.14876,14.108382 12.105319,9.9478902 C 11.813827,9.7329167 11.472818,9.5638321 11.088424,9.5333724 Z"
+						id="path1985" /></svg>
+
+				<svg width="15" height="23" data-depth="0.6" class="layer p4" xmlns="http://www.w3.org/2000/svg"><path
+						style="opacity:0.98999999;fill:#ffd15c;fill-opacity:1;stroke:none;stroke-width:0.68598002px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+						d="M 7.3946208,0.24018635 C 6.9691559,0.19279641 6.4963868,0.36108245 5.9820365,0.88510457 L 4.4620957,7.9156658 0.30344697,9.5692617 c -0.45640989,0.9265883 -0.7002609,2.1536463 0.0757143,3.5677003 l 4.25583473,1.623416 1.6736299,7.745371 c 1.0287019,1.048044 1.8939872,0.668923 2.5392614,0 l 1.4125847,-7.91375 4.368841,-1.667892 c 0.775975,-1.414054 0.532124,-2.639523 0.07572,-3.5661119 L 9.675097,7.3581134 8.5201678,0.88510457 C 8.1975307,0.55064292 7.8200857,0.28757645 7.3946208,0.24018635 Z"
+						id="path1985" /></svg>
+
+				<svg width="15" height="23" data-depth="0.2" class="layer p5" xmlns="http://www.w3.org/2000/svg"> <path
+						style="fill:#6c6ce5;fill-opacity:1;stroke:none;stroke-width:0.6229713px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+						d="M 7.6515711,0.96334347 C 7.2777524,0.91885967 6.8623716,1.0768258 6.410457,1.568713 L 5.0750177,8.1681341 1.4211781,9.7203261 C 1.0201702,10.590092 0.80592028,11.741902 1.4877023,13.069241 l 3.7392288,1.523861 1.470472,7.270397 c 0.9038302,0.983774 1.6640806,0.627902 2.2310264,0 l 1.2411145,-7.428449 3.838517,-1.565611 c 0.681781,-1.327338 0.467531,-2.477658 0.06652,-3.3474239 L 9.6552256,7.6447731 8.6404905,1.568713 C 8.3570176,1.2547617 8.0253898,1.0078275 7.6515711,0.96334347 Z"
+						id="path1985" /></svg>
+
+				<svg width="49" height="17" data-depth="0.5" class="layer p6" xmlns="http://www.w3.org/2000/svg"><path
+						style="fill:#ff4c60;fill-opacity:1;stroke:none;stroke-width:0.58419555px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+						d="m 40.249537,0.08755737 c -0.429584,-0.0340406 -0.906929,0.0868404 -1.426259,0.46324885 L 37.288623,5.6009029 33.089718,6.7886912 c -0.460828,0.6655746 -0.707039,1.5469779 0.07645,2.5627018 l 4.297032,1.166109 1.689831,5.56355 c 1.03866,0.752816 1.912322,0.480491 2.563842,0 L 43.14313,10.396555 47.554263,9.1984979 C 48.33775,8.182774 48.091538,7.3025117 47.63071,6.6369371 L 42.552089,5.2004095 41.385979,0.55080622 C 41.060219,0.31056026 40.67912,0.12159798 40.249537,0.08755737 Z"
+						id="path1985" /></svg>
+
+				<svg width="26" height="26" data-depth="0.4" class="layer p7" xmlns="http://www.w3.org/2000/svg"><path
+						style="fill:#ffd15c;fill-opacity:1;stroke:none;stroke-width:0.84997088px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+						d="M 13.14758,1.2490661 C 12.522561,1.1995401 11.828051,1.3754133 11.072456,1.9230667 L 8.8396213,9.2706666 2.7304563,10.998831 c -0.6704782,0.968371 -1.028701,2.250763 0.1112304,3.728583 l 6.2519341,1.696622 2.4586072,8.094645 c 1.51119,1.095304 2.782318,0.699086 3.730242,0 l 2.075122,-8.270616 6.417944,-1.743104 c 1.139929,-1.47782 0.781704,-2.758552 0.111231,-3.726924 L 16.497661,8.6879714 14.801038,1.9230667 C 14.327076,1.5735226 13.772599,1.2985938 13.14758,1.2490661 Z"
+						id="path1985" /></svg>
+
+				<svg width="19" height="21" data-depth="0.3" class="layer p8" xmlns="http://www.w3.org/2000/svg"><path
+						style="fill:#6c6ce5;fill-opacity:1;stroke:none;stroke-width:0.49770039px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+						d="M 7.0245919,0.84746668 C 6.6595362,0.81839228 6.2538936,0.92163667 5.8125727,1.2431272 L 4.5084398,5.5564114 0.94025652,6.5709006 C 0.54864998,7.1393678 0.33942174,7.8921735 1.0052229,8.7597024 L 4.6567942,9.7556753 6.092794,14.5075 c 0.8826419,0.642979 1.6250702,0.410387 2.1787247,0 L 9.4835367,9.6523745 13.232069,8.6291152 c 0.665799,-0.8675292 0.45657,-1.6193604 0.06497,-2.1878276 L 8.9812757,5.2143502 7.9903278,1.2431272 C 7.7135006,1.0379333 7.3896468,0.87654073 7.0245919,0.84746668 Z"
+						id="path1985" /></svg>
+
+				<svg width="30" height="25" data-depth="0.3" data-depth-y="-1.30" class="layer p9" xmlns="http://www.w3.org/2000/svg"><path
+						style="fill:#6c6ce5;fill-opacity:1;stroke:none;stroke-width:0.79384303px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+						d="m 16.083125,1.6616938 c -0.582271,-0.046367 -1.22928,0.1183028 -1.933197,0.631088 l -2.08012,6.8797823 -5.6913306,1.6181329 c -0.6246217,0.906717 -0.958345,2.107459 0.1036286,3.491187 l 5.824337,1.588598 2.29045,7.579263 c 1.407834,1.025566 2.592024,0.654577 3.475114,0 l 1.933196,-7.74403 5.978992,-1.632121 c 1.061964,-1.383729 0.728239,-2.582916 0.103628,-3.489633 L 19.204079,8.6269694 17.623495,2.2927818 C 17.18195,1.9654928 16.665396,1.7080675 16.083125,1.6616938 Z"
+						id="path1985" /></svg>
+
+				<svg width="47" height="29" data-depth="0.2" class="layer p10" xmlns="http://www.w3.org/2000/svg"> <path
+						style="fill:#44d7b6;fill-opacity:1;stroke:none;stroke-width:0.79384303px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+						d="m 22.198681,4.3817085 c -0.582271,-0.046367 -1.22928,0.1183028 -1.933197,0.631088 l -2.08012,6.8797825 -5.69133,1.618133 c -0.624622,0.906717 -0.958345,2.107459 0.103628,3.491187 l 5.824337,1.588598 2.29045,7.579263 c 1.407834,1.025566 2.592024,0.654577 3.475114,0 l 1.933196,-7.74403 5.978992,-1.632121 c 1.061964,-1.383729 0.728239,-2.582916 0.103628,-3.489633 L 25.319635,11.346984 23.739051,5.0127965 c -0.441545,-0.327289 -0.958099,-0.5847143 -1.54037,-0.631088 z"
+						id="path1985" /></svg>
+
+				<svg width="33" height="20" data-depth="0.5" class="layer p11" xmlns="http://www.w3.org/2000/svg"><path
+						style="fill:#ffd15c;fill-opacity:1;stroke:none;stroke-width:0.66004062px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+						d="m 21.700913,0.42079573 c -0.484129,-0.038552 -1.022084,0.098363 -1.607356,0.52471796 L 18.364042,6.6657069 13.631986,8.0111031 c -0.519342,0.7538896 -0.796816,1.7522463 0.08616,2.9027469 l 4.842644,1.320839 1.904394,6.301776 c 1.170543,0.852707 2.155138,0.544248 2.889383,0 l 1.607355,-6.438772 4.971231,-1.357026 c 0.88297,-1.1505011 0.605495,-2.1475649 0.08616,-2.9014545 L 24.29583,6.2120723 22.981653,0.94551369 C 22.614531,0.67338933 22.185042,0.45935313 21.700913,0.42079573 Z"
+						id="path1985" /></svg>
+
+			</div>
+		</div>
+		
+	</section>
+
+	<!-- section about -->
+	<section id="about">
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeInUp">About Me</h2>
+
+			<div class="spacer" data-height="60"></div>
+			
+			<div class="row">
+
+				<div class="col-md-3">
+					<div class="text-center text-md-left">
+						<!-- avatar image -->
+						<img src="images/drawings/me-blue.png" alt="Noe" />
 					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+				</div>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">noe_luaces</a>
-					</header>
+				<div class="col-md-9 triangle-left-md triangle-top-sm">
+					<div class="rounded bg-dark shadow-light padding-30">
+						<div class="row">
+							<div class="col-md-6">
+								<!-- about text -->
+								<p>Hi 👋</p>
+								<p>I am Noe Luaces, software engineer based in Barcelona, Spain. I have a lot of experience designing and implementing API services, and currently microservices. My interests are related to functional programming and software architecture.</p>
+								<div class="mt-3">
+									<a href="doc/resume_noe_luaces.pdf" class="btn btn-default">Download CV</a>
+								</div>
+								<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+							</div>
+							<div class="col-md-6">
+								<!-- skill item -->
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Java</h4>
+										<span class="float-right">95%</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="95" data-color="#FFD15C">
+										</div>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="about.html">About me</a></li>
-							<li><a href="projects.html">My Projects</a></li>
-							<li><a href="talks.html">Talks</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://github.com/nluaces" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+								<!-- skill item -->
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Kotlin</h4>
+										<span class="float-right">85%</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85" data-color="#FF4C60">
+										</div>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
 
-				<!-- Main -->
-					<div id="main">
+								<!-- skill item -->
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Functional Programming</h4>
+										<span class="float-right">68%</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="68" data-color="#6C6CE5">
+										</div>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
 
-						<!-- Featured Post -->
-						<!--
-							<article class="post featured">
-								<header class="major">
-									<span class="date">July 27, 2018</span>
-									<h2><a href="https://buildingsoftware.nishilua.com/2018/07/17/scala-principles-in-a-nutshell-part-iv/">Scala Principles in a Nutshell<br />
-									(Part IV)</a></h2>
-									<p>What is a recursive method? A method that calls itself many times before reaching a specific condition or base case. What is a tail-recursive method? A method which calls itself in the last instruction (tail-call).</p>
-								</header>
-								<a href="https://buildingsoftware.nishilua.com/2018/07/17/scala-principles-in-a-nutshell-part-iv/" class="image main">
-									<img src="images/blog/20180717.jpg" alt="" />
-								</a>
-								<ul class="actions special">
-									<li><a href="https://buildingsoftware.nishilua.com/2018/07/17/scala-principles-in-a-nutshell-part-iv/" class="button large">Read More</a></li>
-								</ul>
-							</article>
-						-->
-
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<span class="date">July 27, 2018</span>
-										<h2><a href="https://buildingsoftware.nishilua.com/2018/07/17/scala-principles-in-a-nutshell-part-iv/">Scala Principles in a Nutshell<br />
-										(Part IV)</a></h2>
-									</header>
-									<a href="https://buildingsoftware.nishilua.com/2018/07/17/scala-principles-in-a-nutshell-part-iv/" class="image fit">
-										<img src="images/blog/20180717.jpg" alt="Photo taken in Barcelona by Noe Luaces" />
-									</a>
-									<p>Recursive and tail-recursive methods.</p>
-									<ul class="actions special">
-										<li><a href="https://buildingsoftware.nishilua.com/2018/07/17/scala-principles-in-a-nutshell-part-iv/" class="button large">Read</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">July 15, 2018</span>
-										<h2><a href="https://buildingsoftware.nishilua.com/2018/07/15/scala-principles-in-a-nutshell-part-iii/">Scala Principles in a Nutshell<br />
-										(Part III)</a></h2>
-									</header>
-									<a href="https://buildingsoftware.nishilua.com/2018/07/15/scala-principles-in-a-nutshell-part-iii/" class="image fit">
-										<img src="images/blog/20180715.jpg" alt="Photo taken in Sala Apolo, Barcelona by Noe Luaces" />
-									</a>
-									<p>From Java code to Scala code.</p>
-									<ul class="actions special">
-										<li><a href="https://buildingsoftware.nishilua.com/2018/07/15/scala-principles-in-a-nutshell-part-iii/" class="button">Read</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">July 9, 2018</span>
-										<h2><a href="https://buildingsoftware.nishilua.com/2018/07/09/the-builder-pattern/">The Builder<br />
-										Pattern</a></h2>
-									</header>
-									<a href="https://buildingsoftware.nishilua.com/2018/07/09/the-builder-pattern/" class="image fit">
-										<img src="images/blog/20180709.jpg" alt="Drawing in a sticky note by Noe Luaces" /></a>
-									<p>When it’s necessary to isolate the construction of a complex object and at the same time have more than one representation.</p>
-									<ul class="actions special">
-										<li><a href="https://buildingsoftware.nishilua.com/2018/07/09/the-builder-pattern/" class="button">Read</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">July 4, 2018</span>
-										<h2><a href="https://buildingsoftware.nishilua.com/2018/07/04/scala-principles-in-a-nutshell-part-ii/">Scala Principles in a Nutshell<br />
-										Part II</a></h2>
-									</header>
-									<a href="https://buildingsoftware.nishilua.com/2018/07/04/scala-principles-in-a-nutshell-part-ii/" class="image fit">
-										<img src="images/blog/20180704.jpg" alt="Photo taken in Barcelona by Noe Luaces" />
-									</a>
-									<p>Call by Value & Call by Name strategies</p>
-									<ul class="actions special">
-										<li><a href="https://buildingsoftware.nishilua.com/2018/07/04/scala-principles-in-a-nutshell-part-ii/" class="button">Read</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">July 3, 2018</span>
-										<h2><a href="https://buildingsoftware.nishilua.com/2018/07/03/scala-principles-in-a-nutshell-part-i/">Scala Principles in a Nutshell<br />
-										(Part I)</a></h2>
-									</header>
-									<a href="https://buildingsoftware.nishilua.com/2018/07/03/scala-principles-in-a-nutshell-part-i/" class="image fit">
-										<img src="images/blog/20180703.jpg" alt="Photo taken in Barcelona by Noe Luaces" />
-									</a>
-									<p>Introduction to Scala.</p>
-									<ul class="actions special">
-										<li><a href="https://buildingsoftware.nishilua.com/2018/07/03/scala-principles-in-a-nutshell-part-i/" class="button">Read</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">January 15, 2018</span>
-										<h2><a href="https://buildingsoftware.nishilua.com/2018/01/15/how-to-configure-a-java-project-in-heroku/">How to configure a Java Project<br />
-										in Heroku</a></h2>
-									</header>
-									<a href="https://buildingsoftware.nishilua.com/2018/01/15/how-to-configure-a-java-project-in-heroku/" class="image fit">
-										<img src="images/blog/20180115.jpg" alt="Photo taken in Barcelona by Noe Luaces" />
-									</a>
-									<p>Deploying Java web projects in Heroku.</p>
-									<ul class="actions special">
-										<li><a href="https://buildingsoftware.nishilua.com/2018/01/15/how-to-configure-a-java-project-in-heroku/" class="button">Read</a></li>
-									</ul>
-								</article>
-							</section>
-
+								<!-- skill item -->
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Scala</h4>
+										<span class="float-right">15%</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="15" data-color="#afdad3">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
+				</div>
 
+			</div>
+			<!-- row end -->
+
+			<div class="spacer" data-height="70"></div>
+			
+			<div class="row">
 				
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Noe Luaces</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+				<div class="col-md-3 col-sm-6">
+					<!-- fact item -->
+					<div class="fact-item">
+						<span class="icon icon-fire"></span>
+						<div class="details">
+							<h3 class="mb-0 mt-0 number"><em class="count">13</em></h3>
+							<p class="mb-0">Years of experience</p>
+						</div>
 					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<!-- fact item -->
+					<div class="fact-item">
+						<span class="icon icon-eyeglass"></span>
+						<div class="details">
+							<h3 class="mb-0 mt-0 number"><em class="count">8</em></h3>
+							<p class="mb-0">Articles</p>
+						</div>
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<!-- fact item -->
+					<div class="fact-item">
+						<span class="icon icon-microphone"></span>
+						<div class="details">
+							<h3 class="mb-0 mt-0 number"><em class="count">9</em></h3>
+							<p class="mb-0">Talks</p>
+						</div>
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<!-- fact item -->
+					<div class="fact-item">
+						<span class="icon icon-cup"></span>
+						<div class="details">
+							<h3 class="mb-0 mt-0 number"><em class="count">14466</em></h3>
+							<p class="mb-0">Cups of coffee</p>
+						</div>
+					</div>
+				</div>
 
 			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		</div>
+		
+	</section>
+	
+	<!-- section skills -->
+	<section id="skills">
 
-	</body>
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeInUp">Skills</h2>
+
+			<div class="spacer" data-height="60"></div>
+			
+			<div class="row">
+
+				<div class="col-md-4">
+					<!-- service box -->
+					<div class="service-box rounded data-background padding-30 text-center text-light shadow-blue" data-color="#01999d">
+						<h3 class="mb-3 mt-0">✨Quality focus✨</h3>
+						<p class="mb-0">Having a readable code increases its maintainability and future on-boarding processes. Using TDD for the test suite leads to a better design of the code and to reduce the cost of the project in production.</p>
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+				</div>
+
+				<div class="col-md-4">
+					<!-- service box -->
+					<div class="service-box rounded data-background padding-30 text-center shadow-yellow" data-color="#F9D74C">
+						<h3 class="mb-3 mt-0">🌱Self-Learning🌱</h3>
+						<p class="mb-0">I'm curious about new technologies and I like to change tech stacks from time to time. I also like to
+						understand better new concepts writing articles about them or explaining them to others.</p>
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+				</div>
+
+				<div class="col-md-4">
+					<!-- service box -->
+					<div class="service-box rounded data-background padding-30 text-center text-light shadow-pink" data-color="#F97B8B">
+						<h3 class="mb-3 mt-0">💡Lateral thinking💡</h3>
+						<p class="mb-0">When a change/refactor has to be made, I usually try to think all the possible scenarios that a new solution can bring to spot errors. I also
+						try to look problems from different perspectives, to find the solution with less complexity.</p>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="mt-5 text-center">
+				<p class="mb-0"><a href="#contact">Click here</a> to contact me! 👋</p>
+			</div>
+
+		</div>
+		
+	</section>
+	
+	<!-- section experience -->
+	<section id="experience">
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeInUp">Experience</h2>
+
+			<div class="spacer" data-height="60"></div>
+
+			<div class="row">
+				<div class="col-md-10">
+					
+					<!-- responsive spacer -->
+					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+
+					<!-- timeline wrapper -->
+					<div class="timeline exp bg-dark rounded shadow-light padding-30 overflow-hidden">
+
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp">
+							<div class="content">
+								<span class="time">September 2020 - Present</span>
+								<h3 class="title">Senior Software Engineer</h3>
+								<p>-</p>
+							</div>
+						</div>
+
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp">
+							<div class="content">
+								<span class="time">October 2018 - August 2020</span>
+								<h3 class="title">Senior Software Consultant Developer</h3>
+								<p>My main experience during this period was working on micro-services that used Spring Boot written in Kotlin + Arrow, following SOLID	principles and TDD. Those practices were reflected delivering a robust, high quality product. I've worked with feature toggles, that helped to have Continuous Deployment.
+									Regarding soft skills, I've gained experience through pair programming, giving/receiving feedback and mentoring other people.
+									I was also part of the Tech Council, encouraging people to use new technologies reflected in ThoughtWorks Tech Radar. This experience gave me a broad vision of the different alternatives regarding technical tools. </p>
+							</div>
+						</div>
+
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp">
+							<div class="content">
+								<span class="time">February 2018 - September 2018</span>
+								<h3 class="title">Senior Software Engineer</h3>
+								<p>First experience working remotely full time. I was working in a technical project that required customizations for the Oracle API Gatekeeper following agile methodologies. </p>
+							</div>
+						</div>
+
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp">
+							<div class="content">
+								<span class="time">August 2015 - October 2016</span>
+								<h3 class="title">Senior Software Engineer & Technical lead</h3>
+								<p>I became the responsible of the technical solutions applied to the project during the new iterations. The project the implementation
+									of workflows with JBPM.</p>
+							</div>
+						</div>
+
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp">
+							<div class="content">
+								<span class="time">May 2014 - August 2015</span>
+								<h3 class="title">Senior Software Developer</h3>
+								<p>This was my first experience as a full stack developer specialized in backend. I was participating on a project with a heavy client - server
+									architecture, that its main purpose was to show the financial positions of the different financial products of the customer company.
+									The webservice was written in Java, Spring and Hibernate; and the client was written in SWT and Spring.</p>
+							</div>
+						</div>
+
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp">
+							<div class="content">
+								<span class="time">February 2011 - May 2014</span>
+								<h3 class="title">Software Developer</h3>
+								<p>I was building a web application in GWT, Spring and Hibernate that was in charge of the lifecycle of the billing process from the orders
+									generated by external providers, for a specific customer in the retail industry.
+									I have also participated in the migration of a legacy web application into a different Websphere version.</p>
+							</div>
+						</div>
+
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
+							<div class="content">
+								<span class="time">May 2008 - February 2011</span>
+								<h3 class="title">Software Developer</h3>
+								<p>During this period I was working in a start-up specialized in customizing modules for Alfresco CMS and giving support to our clients
+									while deepening my knowledge in Linux. I've also worked as a consultant for the Galician healthcare system.
+									I've worked on building Liferay portals coding in Javascript and integrating them in Alfresco CMS. </p>
+							</div>
+						</div>
+
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
+							<div class="content">
+								<span class="time">November 2007 - May 2008</span>
+								<h3 class="title">Junior Developer</h3>
+								<p>My first job was also my first opportunity working in consultancy. I was building and testing new batch processes for a client related to banking.</p>
+							</div>
+						</div>
+
+						<!-- main line -->
+						<span class="line"></span>
+
+					</div>
+
+				</div>
+
+			</div>
+			<div class="spacer" data-height="60"></div>
+			<div class="row">
+
+				<div class="col-md-10">
+
+					<!-- timeline wrapper -->
+					<div class="timeline edu bg-dark rounded shadow-light padding-30 overflow-hidden">
+
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp">
+							<div class="content">
+								<span class="time">2017</span>
+								<h3 class="title">Functional Programming Principles in Scala</h3>
+								<p>Coursera</p>
+							</div>
+						</div>
+
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
+							<div class="content">
+								<span class="time">2017</span>
+								<h3 class="title">Bachelor's Degree in Computer Science </h3>
+								<p>Universidade da Coruña (UDC)</p>
+							</div>
+						</div>
+
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
+							<div class="content">
+								<span class="time">2007</span>
+								<h3 class="title">Bachelor's Degree in Informational Technology Engineering in Computer Systems</h3>
+								<p>Universidade da Coruña (UDC)</p>
+							</div>
+						</div>
+
+						<!-- main line -->
+						<span class="line"></span>
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+		
+	</section>
+
+	
+	<!-- section prices -->
+	<section id="projects">
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeIn">Projects</h2>
+
+			<div class="spacer" data-height="60"></div>
+
+			
+			<!-- testimonials wrapper -->
+			<div class="testimonials-wrapper">
+
+				<!-- testimonial item -->
+				<div class="testimonial-item text-center mx-auto">
+					<div class="thumb mb-3 mx-auto">
+						<img src="images/03project.png" alt="Lambda Violet" />
+					</div>
+					<h4 class="mt-3 mb-0">Lambda Violet</h4>
+					<span class="subtitle">2017-Present</span>
+					<div class="bg-dark padding-30 shadow-light rounded triangle-top position-relative mt-4">
+						<p class="mb-0">Lambda Violet's mission is to provide a platform to women who work developing software where they can publish technical articles related to functional programming, testing and everything related to back-end development in general. This project is temporarily stopped pending of a new initiative that will pop out in my head 😃</p>
+						<p>✨<a href="https://lambdaviolet.wordpress.com/">Blog</a>✨</p>
+					</div>
+				</div>
+				
+				<!-- testimonial item -->
+				<div class="testimonial-item text-center mx-auto">
+					<div class="thumb mb-3 mx-auto">
+						<img src="images/02project.png" alt="Hello Sisters!" />
+					</div>
+					<h4 class="mt-3 mb-0">Hello Sisters!</h4>
+					<span class="subtitle">2017-2018</span>
+					<div class="bg-dark padding-30 shadow-light rounded triangle-top position-relative mt-4">
+						<p class="mb-0">Currently, the participation of women and non-binary people in local and national technical events is very low, and not at all representative of the diversity of existing professionals in the software industry. However, there is also a tendency for strictly technical and responsible jobs not to be filled by diverse professionals; causing a visibility issue. Given that “you can’t be what you don’t see,” in Hello Sisters! we defend the visibility of future professionals in the technical sector.</p>
+						<p>✨<a href="https://hellosisters.github.io/">Website</a>✨</p>
+					</div>
+				</div>
+
+				<!-- testimonial item -->
+				<div class="testimonial-item text-center mx-auto">
+					<div class="thumb mb-3 mx-auto">
+						<img src="images/01project.png" alt="Logic Tree Resolver" />
+					</div>
+					<h4 class="mt-3 mb-0">Logic Tree Resolver</h4>
+					<span class="subtitle">2016-2017</span>
+					<div class="bg-dark padding-30 shadow-light rounded triangle-top position-relative mt-4">
+						<p class="mb-0">I worked on this project as a result of adapting my university degree to the new degree in Computer Engineering. Web Application that implements Ken Watanabe's book "Problem Solving 101" strategies in order to solve problems cooperatively and analytically, allowing diagrams to be modified concurrently, cooperating through feedback from other members of the organization, and keeping information on problems resolved available to the entire organization.</p>
+						<p>✨<a href="https://bitbucket.org/tfg_logic_tree_resolver/logic-tree-resolver">Code Repo</a>✨</p>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+	
+	<!-- section blog -->
+	<section id="blog">
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeInUp">Latest Posts</h2>
+
+			<div class="spacer" data-height="60"></div>
+			
+			<div class="row blog-wrapper">
+				
+				<div class="col-md-4">
+					<!-- blog item -->
+					<div class="blog-item rounded bg-dark shadow-light wow fadeIn">
+						<div class="thumb">
+							<span class="category">Concepts</span>
+							<a href="https://buildingsoftware.nishilua.com/2018/07/17/scala-principles-in-a-nutshell-part-iv/">
+								<img src="images/blog/20180717.jpg" alt="scala-principles-in-a-nutshell-part-iv" />
+							</a>
+						</div>
+						<div class="details">
+							<h4 class="my-0 title"><a href="https://buildingsoftware.nishilua.com/2018/07/17/scala-principles-in-a-nutshell-part-iv/">Scala Principles in a Nutshell (Part IV)</a></h4>
+							<ul class="list-inline meta mb-0 mt-2">
+								<li class="list-inline-item">17 July, 2018</li>
+								<li class="list-inline-item">Noe Luaces</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<!-- blog item -->
+					<div class="blog-item rounded bg-dark shadow-light wow fadeIn">
+						<div class="thumb">
+							<span class="category">Concepts</span>
+							<a href="https://buildingsoftware.nishilua.com/2018/07/15/scala-principles-in-a-nutshell-part-iii/">
+								<img src="images/blog/20180715.jpg" alt="scala-principles-in-a-nutshell-part-iii/" />
+							</a>
+						</div>
+						<div class="details">
+							<h4 class="my-0 title"><a href="https://buildingsoftware.nishilua.com/2018/07/15/scala-principles-in-a-nutshell-part-iii/">Scala Principles in a Nutshell (Part III)</a></h4>
+							<ul class="list-inline meta mb-0 mt-2">
+								<li class="list-inline-item">15 July, 2018</li>
+								<li class="list-inline-item">Noe Luaces</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<!-- blog item -->
+					<div class="blog-item rounded bg-dark shadow-light wow fadeIn">
+						<div class="thumb">
+							<span class="category">Concepts</span>
+							<a href="https://buildingsoftware.nishilua.com/2018/07/09/the-builder-pattern/">
+								<img src="images/blog/20180709.jpg" alt="the-builder-pattern" />
+							</a>
+						</div>
+						<div class="details">
+							<h4 class="my-0 title"><a href="https://buildingsoftware.nishilua.com/2018/07/09/the-builder-pattern/">The Builder Pattern</a></h4>
+							<ul class="list-inline meta mb-0 mt-2">
+								<li class="list-inline-item">09 July, 2018</li>
+								<li class="list-inline-item">Noe Luaces</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	<!-- section works -->
+	<section id="talks">
+
+		<div class="container">
+
+			<!-- section title -->
+			<h2 class="section-title wow fadeInUp">Talks</h2>
+
+			<div class="spacer" data-height="60"></div>
+
+			<!-- portfolio filter (desktop) -->
+			<ul class="portfolio-filter list-inline wow fadeInUp">
+				<li class="current list-inline-item" data-filter="*">Everything</li>
+				<li class="list-inline-item" data-filter=".lang">Programming Languages</li>
+				<li class="list-inline-item" data-filter=".dev">Working as a dev</li>
+				<li class="list-inline-item" data-filter=".arc">Software Architecture</li>
+				<li class="list-inline-item" data-filter=".fem">Feminism</li>
+			</ul>
+
+			<!-- portfolio filter (mobile) -->
+			<div class="pf-filter-wrapper">
+				<select class="portfolio-filter-mobile">
+					<option value="*">Everything</option>
+					<option value=".lang">Programming Languages</option>
+					<option value=".dev">Working as a dev</option>
+					<option value=".arc">Software Architecture</option>
+					<option value=".fem">Feminism</option>
+				</select>
+			</div>
+
+			<!-- portolio wrapper -->
+			<div class="row portfolio-wrapper">
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item lang">
+					<a href="https://www.youtube.com/watch?v=-EfEaPEN6jI" class="work-video">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Programming Languages</span>
+								<h4 class="title">2019, XConf Barcelona</h4>
+								<span class="more-button"><i class="icon-camrecorder"></i></span>
+							</div>
+							<div class="thumb">
+								<img src="images/pictures/09talk.jpg" alt="Kotlin & Arrow" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item lang">
+					<div class="portfolio-item rounded shadow-dark">
+						<div class="details">
+							<span class="term">Programming Languages</span>
+							<h4 class="title">2019, ThoughtWorks Barcelona</h4>
+						</div>
+						<div class="thumb">
+							<img src="images/pictures/08talk.jpg" alt="Generics in Kotlin 2"/>
+							<div class="mask"></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item lang">
+					<div class="portfolio-item rounded shadow-dark">
+						<div class="details">
+							<span class="term">Programming Languages</span>
+							<h4 class="title">2019, ThoughtWorks Barcelona</h4>
+						</div>
+						<div class="thumb">
+							<img src="images/pictures/07talk.jpg" alt="Generics in Kotlin 1"/>
+							<div class="mask"></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item arc">
+					<div class="portfolio-item rounded shadow-dark">
+						<div class="details">
+							<span class="term">Software Architecture</span>
+							<h4 class="title">2019, ThoughtWorks Barcelona</h4>
+						</div>
+						<div class="thumb">
+							<img src="images/pictures/06talk.jpg" alt="Software Architecture"/>
+							<div class="mask"></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item dev">
+					<div class="portfolio-item rounded shadow-dark">
+						<div class="details">
+							<span class="term">Working as a dev</span>
+							<h4 class="title">2019, ThoughtWorks Barcelona</h4>
+						</div>
+						<div class="thumb">
+							<img src="images/pictures/05talk.jpg" alt="Programming your brain"/>
+							<div class="mask"></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item fem">
+					<div class="portfolio-item rounded shadow-dark">
+						<div class="details">
+							<span class="term">Feminism</span>
+							<h4 class="title">2018, Xornadas Anita Borg, UDC, A Coruña</h4>
+						</div>
+						<div class="thumb">
+							<img src="images/pictures/04talk.jpg" alt="Ingenieras Software"/>
+							<div class="mask"></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item lang">
+					<a href="https://www.youtube.com/watch?v=dOjao7a9fu8" class="work-video">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Programming Languages</span>
+								<h4 class="title">2017, GDG Dev Fest, Vigo</h4>
+								<span class="more-button"><i class="icon-camrecorder"></i></span>
+							</div>
+							<div class="thumb">
+								<img src="images/pictures/03talk.jpg" alt="Kotlin & Arrow" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item dev">
+					<div class="portfolio-item rounded shadow-dark">
+						<div class="details">
+							<span class="term">Working as a dev</span>
+							<h4 class="title">2017, Universidade Da Coruña</h4>
+						</div>
+						<div class="thumb">
+							<img src="images/pictures/02talk.jpg" alt="Consultoría informática"/>
+							<div class="mask"></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item fem">
+					<div class="portfolio-item rounded shadow-dark">
+						<div class="details">
+							<span class="term">Feminism</span>
+							<h4 class="title">2017, Unión de Muchachas, Boiro (A Coruña)</h4>
+						</div>
+						<div class="thumb">
+							<img src="images/pictures/01talk.jpg" alt="Algoritmos sexistas"/>
+							<div class="mask"></div>
+						</div>
+					</div>
+				</div>
+
+
+
+			</div>
+
+			<!--			&lt;!&ndash; more button &ndash;&gt;-->
+			<!--			<div class="load-more text-center mt-4">-->
+			<!--				<a href="javascript:" class="btn btn-default"><i class="fas fa-spinner"></i> Load more</a>-->
+			<!--				&lt;!&ndash; numbered pagination (hidden for infinite scroll) &ndash;&gt;-->
+			<!--				<ul class="portfolio-pagination list-inline d-none">-->
+			<!--					<li class="list-inline-item">1</li>-->
+			<!--					<li class="list-inline-item"><a href="works-2.html">2</a></li>-->
+			<!--				</ul>-->
+			<!--			</div>-->
+
+		</div>
+
+	</section>
+
+	<!-- section contact -->
+	<section id="contact">
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeInUp">Get In Touch</h2>
+
+			<div class="spacer" data-height="60"></div>
+			
+			<div class="row">
+				
+				<div class="col-md-4">
+					<!-- contact info -->
+					<div class="contact-info">
+						<h3 class="wow fadeInUp">Let's talk about everything!</h3>
+						<p class="wow fadeInUp">Write me a message through <a href="https://www.linkedin.com/in/nluaces/"><i class="fab fa-linkedin"></i></a> 👋</p>
+						<p class="wow fadeInUp">You can download my cv <a href="doc/resume_noe_luaces.pdf">here</a>. 📃</p>
+					</div>
+				</div>
+
+				<div class="col-md-8">
+					<img src="images/drawings/contact.png" alt="Noe" />
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	<div class="spacer" data-height="96"></div>
+	
+</main>
+
+<!-- Go to top button -->
+<a href="javascript:" id="return-to-top"><i class="fas fa-arrow-up"></i></a>
+
+<!-- SCRIPTS -->
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/infinite-scroll.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/validator.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/morphext.min.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
 </html>
