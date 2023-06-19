@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="15px"
    height="23px"
    viewBox="0 0 15 23"
    version="1.1"
    id="svg13"
    sodipodi:docname="5.svg"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata19">
     <rdf:RDF>
@@ -37,24 +37,27 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1043"
+     inkscape:window-height="1016"
      id="namedview15"
      showgrid="false"
      inkscape:zoom="10.26087"
-     inkscape:cx="7.5"
-     inkscape:cy="11.5"
+     inkscape:cx="-14.472457"
+     inkscape:cy="11.548728"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg13" />
+     inkscape:current-layer="svg13"
+     inkscape:pagecheckerboard="0" />
   <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
   <title
      id="title2">rectangle copy</title>
   <desc
      id="desc4">Created with Sketch.</desc>
-  <path
-     inkscape:connector-curvature="0"
-     style="fill:#6c6ce5;fill-opacity:1;stroke:none;stroke-width:0.6229713px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="M 7.6515711,0.96334347 C 7.2777524,0.91885967 6.8623716,1.0768258 6.410457,1.568713 L 5.0750177,8.1681341 1.4211781,9.7203261 C 1.0201702,10.590092 0.80592028,11.741902 1.4877023,13.069241 l 3.7392288,1.523861 1.470472,7.270397 c 0.9038302,0.983774 1.6640806,0.627902 2.2310264,0 l 1.2411145,-7.428449 3.838517,-1.565611 c 0.681781,-1.327338 0.467531,-2.477658 0.06652,-3.3474239 L 9.6552256,7.6447731 8.6404905,1.568713 C 8.3570176,1.2547617 8.0253898,1.0078275 7.6515711,0.96334347 Z"
-     id="path1985" />
+  <ellipse
+     style="opacity:1;vector-effect:none;fill:#6c6ce5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path2648"
+     cx="8.5176439"
+     cy="10.940761"
+     rx="3.0592556"
+     ry="3.7764828" />
 </svg>
